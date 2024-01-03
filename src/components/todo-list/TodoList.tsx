@@ -45,7 +45,7 @@ const TodoList: React.FC = () => {
 
   const deleteFn = async (id: number) => {
 
-    const oldTodos = todos;
+    // const oldTodos = todos;
     const newTodos = todos.filter((todo) => todo.id != id);
 
     setTodos(newTodos);
@@ -53,7 +53,8 @@ const TodoList: React.FC = () => {
     try {
       await axios.delete("https://jsonplaceholder.typicode.com/todos/" + id);
     } catch (error) {
-      setTodos(oldTodos);
+      // setTodos(oldTodos);
+      console.log(error)
     }
 
   }
