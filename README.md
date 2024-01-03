@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+# React Todo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+this project is build using vit framework as an Conding Ninjas Frontend skill test
 
-Currently, two official plugins are available:
+## Project Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* clone git repository
+  
+  ```bash
+  git clone https://github.com/akashpadampalle/react-todo.git
+  ```
+* change working directory
+  
+  ```bash
+  cd react-todo
+  ```
+* change working directory
+  
+  ```bash
+  npm install
+  ```
 
-## Expanding the ESLint configuration
+## Usage
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* run project
+  
+  ```bash
+  npm start
+  ```
+* or, run development
+  
+  ```bash
+  npm run dev
+  ```
+* open  [http://localhost:5173/](http://localhost:5173/) in your browser
 
-- Configure the top-level `parserOptions` property like this:
+## Live Demo
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+open [https://react-todo-snowy-one.vercel.app/](https://react-todo-snowy-one.vercel.app/) it in your browser
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Screenshots
+ 
+
+
+  
