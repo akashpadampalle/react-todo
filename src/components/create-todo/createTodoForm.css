@@ -1,0 +1,40 @@
+.create-todo-form {
+    text-align: center;
+}
+
+.input-container {
+    width: fit-content;
+    min-width: 600px;
+    margin: auto;
+    border: 1px solid rgb(66, 161, 90);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(61, 61, 61);
+    overflow: hidden;
+    background: rgb(236, 236, 236);
+}
+
+.input-container .error-message {
+    background-color: rgb(216, 57, 57);
+    color: white;
+    font-size: small;
+}
+
+.input-container .input-title {
+    width: 500px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    line-break: anywhere;
+    background-color: transparent;
+    font-size: larger;
+}
+
+.input-container .input-submit {
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: larger;
+    background-color: rgb(66, 161, 90);
+    padding: 5px;
+    border: none;
+}

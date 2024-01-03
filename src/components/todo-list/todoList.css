@@ -1,0 +1,18 @@
+.todo-list-title {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.todo-list {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+.create-todo-container {
+    width: 100%;
+    position: sticky;
+    bottom: 10px;
+    margin: auto;
+}

@@ -1,0 +1,15 @@
+.spinner {
+    width: fit-content;
+    height: fit-content;
+    animation: spin .5s ease-in-out infinite forwards;
+}
+
+@keyframes spin {
+    0% {
+        rotate: 0deg;
+    }
+   
+    100% {
+        rotate: 360deg;
+    }
+}

@@ -1,0 +1,28 @@
+.todo-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px rgb(211, 211, 211);
+    overflow: hidden;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.todo-list-item:nth-child(2n+1) {
+    background-color: rgb(243, 243, 243);
+}
+
+.todo-list-item:hover {
+    border: 1px solid gray;
+}
+
+.todo-list-item .delete-button:hover {
+    color: rgb(255, 0, 0);
+}
+
+.todo-list-item .cut-though {
+    text-decoration: line-through;
+    background-color: rgb(255, 229, 181);
+}
